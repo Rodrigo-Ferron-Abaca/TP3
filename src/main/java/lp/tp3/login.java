@@ -27,6 +27,7 @@ public class login extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        JOPmensaje = new javax.swing.JOptionPane();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -84,11 +85,11 @@ public class login extends javax.swing.JFrame {
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 101, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(JtEmail)
-                        .addComponent(JtPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 207, Short.MAX_VALUE)))
-                .addContainerGap(92, Short.MAX_VALUE))
+                        .addComponent(JtPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 207, Short.MAX_VALUE))
+                    .addComponent(jButton1))
+                .addContainerGap(148, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -174,6 +175,7 @@ public class login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JOptionPane JOPmensaje;
     private javax.swing.JTextField JtEmail;
     private javax.swing.JTextField JtPassword;
     private javax.swing.JButton jButton1;
