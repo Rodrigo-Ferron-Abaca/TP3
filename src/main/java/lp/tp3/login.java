@@ -121,15 +121,21 @@ public class login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void JtEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JtEmailActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_JtEmailActionPerformed
 
     private void JtPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JtPasswordActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_JtPasswordActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        if ("alumno@ulp.edu.ar".equals(JtEmail.getText()) && "12345678".equals(JtPassword.getText())) {
+            
+        } else {
+                
+        }
+            
+       
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
