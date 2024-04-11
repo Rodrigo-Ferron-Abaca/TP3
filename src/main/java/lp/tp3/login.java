@@ -16,7 +16,11 @@ public class login extends javax.swing.JFrame {
     public login() {
         initComponents();
     }
-
+    
+    private void limpiar() {
+       JtEmail.setText("");
+       JtPassword.setText("");
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -135,7 +139,7 @@ public class login extends javax.swing.JFrame {
         } else {
          JOPmensaje.showMessageDialog(null, "Usuario y/o contraseña incorrectos"); 
         }
-        
+        limpiar();
       
     }//GEN-LAST:event_jButton1ActionPerformed
 
