@@ -131,12 +131,12 @@ public class login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         if ("alumno@ulp.edu.ar".equals(JtEmail.getText()) && "12345678".equals(JtPassword.getText())) {
-            
+         JOPmensaje.showMessageDialog(null, "¡Bienvenido!");   
         } else {
-                
+         JOPmensaje.showMessageDialog(null, "Usuario y/o contraseña incorrectos"); 
         }
-            
-       
+        
+      
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
